@@ -24,6 +24,8 @@ public class Customer {
 	@JsonProperty(access = JsonProperty.Access.WRITE_ONLY)
 	private String password;
 	private String address;
+	
+	
 	public Integer getCustId() {
 		return custId;
 	}
